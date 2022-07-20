@@ -68,7 +68,7 @@ export default {
         const { expand } = this.flatData[item[this.prop_id]] || {}
         if (expand) this.$set(item, this.prop_expand, true)
       })
-      this._toggleExpand(this.dataCloned, this.expandAll)
+      //this._toggleExpand(this.dataCloned, this.expandAll)
     },
     expandAll (status) {
       this._toggleExpand(this.dataCloned, status)
