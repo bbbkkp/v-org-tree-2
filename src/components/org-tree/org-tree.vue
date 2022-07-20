@@ -65,10 +65,11 @@ export default {
     data (newData) {
       this._handleData(newData)
       this._mapData(this.dataCloned, item => {
+         debugger
         const { expand } = this.flatData[item[this.prop_id]] || {}
         if (expand) this.$set(item, this.prop_expand, true)
       })
-      console.error("!!!!!!!!----xiaobing------!!!!!!!!!");
+      //console.error("!!!!!!!!----xiaobing------!!!!!!!!!");
       //this._toggleExpand(this.dataCloned, this.expandAll)
     },
     expandAll (status) {
