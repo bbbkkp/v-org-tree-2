@@ -1,6 +1,6 @@
 {
   "name": "@bbbkkp/v-org-tree",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "private": false,
   "description": "A simple organization tree chart based on Vue2.x",
   "main": "dist/v-org-tree.common.js",
@@ -49,7 +49,7 @@
       "git add"
     ]
   },
-  "homepage": "https://github.com/lison16/v-org-tree#readme",
+  "homepage": "https://github.com/bbbkkp/v-org-tree-2#readme",
   "keywords": [
     "v-org-tree"
   ]

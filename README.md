@@ -1,31 +1,21 @@
 # v-org-tree
 
-[![npm](https://img.shields.io/npm/v/v-org-tree.svg)]()
-[![Build Status](https://travis-ci.com/lison16/v-org-tree.svg?branch=master)](https://travis-ci.com/lison16/v-org-tree)
 
 v-org-tree是一个基于Vue.js2封装的组织结构树组件，支持自定义节点和收缩按钮，高自由度定制，有水平和垂直两种方向。
 
-> 本插件借鉴了[vue-org-tree](https://github.com/hukaibaihu/vue-org-tree)实现数据到结构树的呈现。优化了对数据的更新以及一些操作的方式，添加了一些api。
+> 本插件在[lison16/v-org-tree](https://github.com/lison16/v-org-tree)的基础上修改了当data变化时不要自动展开或者关闭节点
 
-#### 作者系列视频课程：
 
-[Vue技术栈开发实战(26课时)](https://segmentfault.com/ls/1650000016221751?utm_source=recommend_web-live-new)
-
-[TypeScript完全解读(26课时)](https://segmentfault.com/ls/1650000018455856?utm_source=recommend_web-live-new)
-
-#### 进群和4000+前后端开发者交流学习
-
-![image](https://github.com/lison16/v-org-tree/blob/master/group.png)
 
 ## Install
 ```
-npm install v-org-tree
+npm install @bbbkkp/v-org-tree
 ```
 
 ## Use
 ```
-import OrgTree from 'v-org-tree'
-import 'v-org-tree/dist/v-org-tree.css'
+import OrgTree from '@bbbkkpv-org-tree'
+import '@bbbkkp/v-org-tree/dist/v-org-tree.css'
 Vue.use(OrgTree)
 ```
 
