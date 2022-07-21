@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lison16/v-org-tree.git"
+    "url": "https://github.com/bbbkkp/v-org-tree-2.git"
   },
   "bugs": {
-    "url": "https://github.com/lison16/v-org-tree/issues"
+    "url": "https://github.com/bbbkkp/v-org-tree-2/issues"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

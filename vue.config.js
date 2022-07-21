@@ -1,5 +1,5 @@
 module.exports = {
-  baseUrl: process.env.NODE_ENV === 'production' ? 'https://lison16.github.io/v-org-tree/' : '/',
+  baseUrl: process.env.NODE_ENV === 'production' ? '/' : '/',
   lintOnSave: true,
   productionSourceMap: false
 }
